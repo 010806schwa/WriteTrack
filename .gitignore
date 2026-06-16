@@ -1,0 +1,28 @@
+# Dependencies and runtime links
+node_modules/
+
+# Generated outputs and previews
+outputs/*
+!outputs/.gitkeep
+
+# Private writing snapshots
+写作前/*
+!写作前/.gitkeep
+写作后/*
+!写作后/.gitkeep
+
+# Python caches
+__pycache__/
+tools/__pycache__/
+*.py[cod]
+
+# Spreadsheet/tool inspection artifacts
+*.inspect.ndjson
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+~$*
